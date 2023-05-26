@@ -1,3 +1,6 @@
+//go:build cgo
+// +build cgo
+
 package gosseract
 
 // #cgo CXXFLAGS: -std=c++0x
